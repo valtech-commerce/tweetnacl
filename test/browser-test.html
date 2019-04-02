@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script src="../node_modules/tweetnacl/nacl-fast.js"></script>
+	<script src="../node_modules/tweetnacl-util/nacl-util.js"></script>
+	<script src="../dist/kafe.js"></script>
+
+	<script>
+		const { box, key } = kafe.tweetnacl.secretbox.lock('Dirty little secret');
+		console.log({ box, key });
+
+		const message = kafe.tweetnacl.secretbox.unlock(box, key);
+		console.log(message);
+	</script>
+</head>
+<body>
+
+</body>
+</html>

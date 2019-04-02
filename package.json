@@ -1,0 +1,46 @@
+{
+  "name": "@absolunet/tweetnacl",
+  "version": "0.1.0",
+  "description": "TweetNaCl wrapper",
+  "definition": "",
+  "homepage": "https://github.com/absolunet/tweetnacl-js",
+  "author": {
+    "name": "Absolunet",
+    "url": "https://absolunet.com"
+  },
+  "keywords": [
+    "crypto",
+    "kafe",
+    "nacl",
+    "poly1305",
+    "salsa20",
+    "secretbox",
+    "tweetnacl"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/absolunet/tweetnacl-js.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/absolunet/tweetnacl-js/issues"
+  },
+  "engines": {
+    "node": ">= 11.13.0"
+  },
+  "main": "dist/node.js",
+  "browser": "dist/kafe.js",
+  "scripts": {
+    "build": "node node_modules/@absolunet/library-builder/bin/build.js",
+    "test": "ava test"
+  },
+  "devDependencies": {
+    "@absolunet/library-builder": "1.1.1",
+    "@absolunet/tester": "2.6.3",
+    "ow": "0.12.0"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.1",
+    "tweetnacl-util": "^0.15.0"
+  }
+}
