@@ -1,12 +1,12 @@
 {
-  "name": "@absolunet/tweetnacl",
+  "name": "@valtech-commerce/tweetnacl",
   "version": "0.1.0",
   "description": "TweetNaCl wrapper",
   "definition": "",
-  "homepage": "https://github.com/absolunet/tweetnacl-js",
+  "homepage": "https://github.com/valtech-commerce/tweetnacl",
   "author": {
-    "name": "Absolunet",
-    "url": "https://absolunet.com"
+    "name": "Valtech Canada inc.",
+    "url": "https://www.valtech.ca/"
   },
   "keywords": [
     "crypto",
@@ -19,11 +19,11 @@
   ],
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/absolunet/tweetnacl-js.git",
+    "url": "git://github.com/valtech-commerce/tweetnacl.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/absolunet/tweetnacl-js/issues"
+    "url": "https://github.com/valtech-commerce/tweetnacl/issues"
   },
   "engines": {
     "node": ">= 11.13.0"

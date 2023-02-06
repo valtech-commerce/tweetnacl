@@ -1,10 +1,10 @@
-# @absolunet/tweetnacl
+# @valtech-commerce/tweetnacl
 
-[![npm](https://img.shields.io/npm/v/@absolunet/tweetnacl.svg)](https://www.npmjs.com/package/@absolunet/tweetnacl)
-[![npm dependencies](https://david-dm.org/absolunet/tweetnacl-js/status.svg)](https://david-dm.org/absolunet/tweetnacl-js)
-[![npms](https://badges.npms.io/%40absolunet%2Ftweetnacl.svg)](https://npms.io/search?q=%40absolunet%2Ftweetnacl)
-[![Travis CI](https://travis-ci.com/absolunet/tweetnacl-js.svg?branch=master)](https://travis-ci.com/absolunet/tweetnacl-js/builds)
-[![Code style ESLint](https://img.shields.io/badge/code_style-@absolunet/library-659d32.svg)](https://github.com/absolunet/eslint-config)
+[![npm](https://img.shields.io/npm/v/@valtech-commerce/tweetnacl.svg)](https://www.npmjs.com/package/@valtech-commerce/tweetnacl)
+[![npm dependencies](https://david-dm.org/valtech-commerce/tweetnacl-js/status.svg)](https://david-dm.org/valtech-commerce/tweetnacl-js)
+[![npms](https://badges.npms.io/%40valtech-commerce%2Ftweetnacl.svg)](https://npms.io/search?q=%40valtech-commerce%2Ftweetnacl)
+[![Travis CI](https://travis-ci.com/valtech-commerce/tweetnacl-js.svg?branch=master)](https://travis-ci.com/valtech-commerce/tweetnacl-js/builds)
+[![Code style ESLint](https://img.shields.io/badge/code_style-@valtech-commerce/library-659d32.svg)](https://github.com/valtech-commerce/eslint-config)
 
 
 > [TweetNaCl](https://tweetnacl.js.org) wrapper
@@ -15,7 +15,7 @@ Wrap TweetNaCl functionalities
 ## Install
 
 ```shell
-$ npm install @absolunet/tweetnacl
+$ npm install @valtech-commerce/tweetnacl
 ```
 
 
@@ -23,7 +23,7 @@ $ npm install @absolunet/tweetnacl
 
 ```js
 // Node.js
-const tweetnacl = require('@absolunet/tweetnacl');
+const tweetnacl = require('@valtech-commerce/tweetnacl');
 
 // Browser
 //   Load TweetNaCl libraries
@@ -90,4 +90,4 @@ Key to unlock box
 <br><br>
 
 ## License
-MIT © [Absolunet](https://absolunet.com)
+MIT © [Valtech Canada inc.](https://www.valtech.ca/)
